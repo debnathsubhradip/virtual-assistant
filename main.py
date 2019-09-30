@@ -232,7 +232,7 @@ if __name__ == "__main__":
             text = get_audio()
             if "Alex" in str(text) or "Hey Alex" in str(text) or "Hey" in str(text) or "wake" in str(text) or "come on alex" in str(text) or "come on" in str(text) or "hi Alex" in str(text) or "helix" in str(text):
                 counter=0
-                break;
+                break
         assistant_speaks("What can i do for you?")
         text = get_audio()
 
